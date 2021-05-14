@@ -1,0 +1,43 @@
+/**
+ * Custom Styles here.
+ *
+ * ref：https://v1.vuepress.vuejs.org/config/#index-styl
+ */
+ 
+.home .hero img {
+    max-width: 959px !important;
+    max-height: 458px !important;
+}
+
+.navbar {
+    background-color: #05008f;
+
+    .site-name {
+        color: #fff !important;
+    }
+
+    .links {
+        background-color: #05008f !important;
+    }
+
+    .dropdown-wrapper .dropdown-title {
+        color: #fff;
+    }
+}
+
+@media (min-width: 719px) {
+    .nav-links a {
+        color: #fff !important;
+    }
+
+    .nav-links .nav-dropdown a {
+        color: #4f5a77 !important;
+    }
+}
+
+@media (min-width: 719px) {
+    .nav-item > a:not(.external):hover, 
+    .nav-item > a:not(.external).router-link-active {
+        border-bottom: 2px solid #4f5a77 !important;
+    }
+}
